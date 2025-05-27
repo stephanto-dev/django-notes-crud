@@ -3,7 +3,7 @@ import { ACCESS_TOKEN } from "./constants"
 
 const api = axios.create({
     // baseURL: import.meta.env.VITE_API_URL,
-    baseURL: "http://t00oc0c00o84g08kwg080w0c.68.183.54.121.sslip.io"
+    baseURL: "http://t00oc0c00o84g08kwg080w0c.68.183.54.121.sslip.io/api/"
 })
 
 api.interceptors.request.use((config) => {
